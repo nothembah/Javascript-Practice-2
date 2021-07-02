@@ -20,6 +20,17 @@ function sum_nums(max){
     return sum;
 }
 
+function factorial(num){
+    let product = 1;
+    
+    for(let i = 1; i <= num; i++){
+        product *= i;
+    }
+
+    return product;
+}
+
 console.log(count_a("aa i aA"));
 console.log(count_vowels("NothEmba"));
 console.log(sum_nums(10));
+console.log(factorial(10));
