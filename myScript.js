@@ -4,4 +4,11 @@ function count_a(word){
     return result;
 }
 
+function count_vowels(word){
+    let vowelRegex = /a|e|i|o|u/gi;
+    let answer = word.match(vowelRegex).length;
+    return answer;
+}
+
 console.log(count_a("aa i aA"));
+console.log(count_vowels("NothEmba"));
