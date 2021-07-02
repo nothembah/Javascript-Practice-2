@@ -44,9 +44,14 @@ function goodbye(name){
     return "Goodbye, " + name + ".";
 }
 
-console.log(count_a("aa i aA"));
-console.log(count_vowels("NothEmba"));
-console.log(sum_nums(10));
-console.log(factorial(10));
-console.log(reverse("Nothemba"));
-console.log(goodbye("Nothemba"));
+let number = 11;
+let string = "Athaliyah";
+let firstName = "Nothemba";
+
+
+console.log(count_a(string));
+console.log(count_vowels(string));
+console.log(sum_nums(number));
+console.log(factorial(number));
+console.log(reverse(string));
+console.log(goodbye(firstName));
