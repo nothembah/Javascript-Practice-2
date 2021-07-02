@@ -40,8 +40,13 @@ function reverse(word){
     return ans;
 }
 
+function goodbye(name){
+    return "Goodbye, " + name + ".";
+}
+
 console.log(count_a("aa i aA"));
 console.log(count_vowels("NothEmba"));
 console.log(sum_nums(10));
 console.log(factorial(10));
 console.log(reverse("Nothemba"));
+console.log(goodbye("Nothemba"));
