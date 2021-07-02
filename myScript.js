@@ -30,7 +30,18 @@ function factorial(num){
     return product;
 }
 
+function reverse(word){
+    let word1 = word.split("");
+    console.log(word1);
+    word1.reverse();
+    console.log(word1);
+    let ans = word1.join("");
+    console.log(word1);
+    return ans;
+}
+
 console.log(count_a("aa i aA"));
 console.log(count_vowels("NothEmba"));
 console.log(sum_nums(10));
 console.log(factorial(10));
+console.log(reverse("Nothemba"));
