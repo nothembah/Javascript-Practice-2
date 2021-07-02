@@ -10,5 +10,16 @@ function count_vowels(word){
     return answer;
 }
 
+function sum_nums(max){
+    let sum = 0;
+
+    for(let i = 1; i <= max; i++){
+        sum += i;
+    }
+
+    return sum;
+}
+
 console.log(count_a("aa i aA"));
 console.log(count_vowels("NothEmba"));
+console.log(sum_nums(10));
